@@ -7,9 +7,9 @@ Using this configuration we can make sure that at least the base rules are equal
 2. Add `parent_config: https://raw.githubusercontent.com/WouterVermeijNPO/NPO-iOS-swiftlint/main/swiftlint_parent_config.yml`
 
 Optionally, when additional rules are needed for the project, a child configuration can be added:
-3. Create a `.swiftlint_refinement.yml` file
-4. Add the additional rules to the child configuration file
-5. Configure `.swiftlint.yml` as follows:
+- Create a `.swiftlint_refinement.yml` file
+- Add the additional rules to the child configuration file
+- Configure `.swiftlint.yml` as follows:
 
 ```yml
 child_config: .swiftlint_refinement.yml
