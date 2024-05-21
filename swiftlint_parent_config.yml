@@ -19,10 +19,6 @@ excluded:
   - vendor
   - DerivedData
   - Packages
-  - "**//*/Package.swift"
-  - "**/*Tests"
-  - "**/*/Generated"
-  - "**/*/.build"
 
 colon:
   apply_to_dictionaries: false
