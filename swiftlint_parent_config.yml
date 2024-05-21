@@ -20,7 +20,7 @@ excluded:
   - DerivedData
   - Packages
 
-colon:
-  apply_to_dictionaries: false
+# Don't fail if there are no files to lint, useful when supplying direct files to lint (pre-commit hook and CI).
+allow_zero_lintable_files: true
 
 indentation: 4
